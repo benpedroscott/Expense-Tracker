@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Expense Tracker</h1>
+<div class = "allParent">
+  <div class = "nameParent">
+    <p class="Name">Name</p>
+    <input type = "text" id= "myText" class = "inputs" value= "Test">
+  </div>
+  <div class = "dateParent">
+    <p class="Name">Date</p>
+    <input type = "date" id= "myDate" class = "inputs" value= "02/21/2022">
+  </div>
+  <div class = "expenseParent">
+    <p class="Name">Amount</p>
+    <input type = "number" id= "myExpense" class = "inputs" value= "200">
+  </div>
+</div>
+
+  <button id = "confirmButton" class = "inputButtons" onclick="myFunction()">confirm</button>
+
+    <table id = "expenseTable" style="width:80%">
+      <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Amount</th>
+        <th></th>
+      </tr>
+    <table>
+
+</body>
+<script src="script.js"></script>
+</html>
